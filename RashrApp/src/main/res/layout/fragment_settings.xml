@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bSetDevName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/set_dev_name" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bReport"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/report" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bShowLogs"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/showlog" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bClearCache"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/sClearCache" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbShowAds"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/ShowAds" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbLog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/log" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbDarkUI"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/UseDarkUI" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbCheckUpdates"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/check_app_updates" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbShowUpToDateHints"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/hide_uptodate_hint" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbSkipSizeChecking"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/skip_size_check" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbSkipValidateImages"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/skip_validate_image" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bShowChangelog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/changelog" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bShowLicenses"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/licenses" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bReset"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/reset_app" />
+    </LinearLayout>
+</ScrollView>
